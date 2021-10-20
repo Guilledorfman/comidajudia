@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="icon" href="./img/jewchef.png">
+    <title>Recetas Judias</title>
+</head>
+<body>
+    <div id="modal"></div>
+    <div id="recetario" class="recetario-cont">
+        <ul id="recetasGuardadas">
+        </ul>
+        <div id="solapaRecetario" class="recetario"><span class="material-icons-outlined">bookmarks</span></div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <img class="logo" src="./img/jewchef.png" alt="logo">
+            <h4 class="title">Buscador de recetas judías</h4>
+            <div class="search-cont">
+                <div id="searchNameCont" class="search name">
+                    <p>ingrese el nombre de la receta</p>
+                    <div class="input-cont">
+                        <input class="input" type="text" id="recipeInput" placeholder="buscar..." value="">
+                        <button class="searchbtn" id="searchNameBtn"><span class="material-icons">search</span></button>
+                    </div>
+                    <div id="searchRecipes" class="subtitle name">Buscar por nombre</div>
+                </div>
+                <div id="searchIngredientsCont" class="search ingredients" >
+                    <p>ingrese ingredientes separados por comas</p>
+                    <div class="input-cont">
+                        <input class="input" type="text" id="ingredientInput" placeholder="ingrediente 1,ingrediente 2" value="">
+                        <button class="searchbtn" id="searchIngBtn"><span class="material-icons">search</span></button>
+                    </div>
+                    <div id="searchIngredients" class="subtitle ingredients">Buscar por ingredientes</div>
+                </div>
+                
+            </div>
+        </header>
+        <ul id="searchWords" class="searchWords">
+        </ul>
+        <ul id="result" class="recipe-list">
+        </ul>
+    </div>
+
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!--  -->
+
+        <script src="script.js"></script>
+</body>
+</html>
