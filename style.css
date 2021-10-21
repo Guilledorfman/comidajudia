@@ -170,6 +170,7 @@ body{
     position: fixed;
     left: 0;
     width: 500px;
+    max-width: 100vw;
     top: -100vh;
     z-index:8000;
     transition: transform .4s ease;
@@ -246,7 +247,7 @@ h5{
     background-color: white;
     list-style-type: none;
     margin: 0;
-    max-height: 500px;
+    max-height: 60%;
     overflow-y: auto;
     padding: 0;
 }
@@ -369,20 +370,46 @@ h5{
 }
 /* =====LOADING====== */
 
-#loading{
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
+#loading-cont{
     display: flex;
-    position: absolute;
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
 }
 
-#loading>img{
-    height: 100px;
-    width: 100px;
+#loading-ball1{
+    width: 80px;
+    height: 80px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7); 
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    margin: auto;
+    border-radius: 100%;
+    position: relative;
+    z-index: 80;
+    /* transition: transform 5s ease;
+    transform: rotateZ(-360deg); */
+    
 }
+
+#loading-ball2{
+    width: 20px;
+    height: 20px;
+    background: #2193b0;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    border-radius: 100%;
+    position: absolute;
+    z-index:50;
+    left: 150px;
+    top: 120px;
+}
+
+
+/* para pantallas grandes */
 
 @media (min-width: 1000px) {
     .recipe-list{
@@ -402,8 +429,8 @@ h5{
     }
     .recipe-list img{
         border-radius: 20%;
-        min-width: 200px;
-        min-height: 200px;
+        min-width: 180px;
+        min-height: 180px;
         margin-bottom: 20px;
     }
     .subtitle.ingredients{

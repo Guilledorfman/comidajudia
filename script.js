@@ -1,6 +1,5 @@
 //array ids de recetas guardadas en favoritos
 
-
 let stringToArray = [];
 let recetario;
 
@@ -49,38 +48,70 @@ class Recipe {
 
 }
 
+//animacion del loading con JQuery
+
+animate1();
+
+
+function animate1(){
+    $(`#loading-ball2`).animate({width: '30px', height:['30px','swing'], top:['50px','swing'], left: '20px'},"slow",  
+    function(){        
+        $('#loading-ball2').css(        
+            'z-index', 100
+        )
+        animate2();
+    });
+}
+
+function animate2(){
+    $(`#loading-ball2`).animate({width:'20px', height:['20px','swing'], top:['120px','swing'], left: '150px'},"slow",  
+    function(){        
+        $('#loading-ball2').css(        
+            'z-index', 50
+        )
+        animate1();
+    });
+}
+
 
 //Array de recetas
 const recipes = [];
 
-$.get('./json/recipes.json', (response) =>{
-    response.forEach((recipe)=>{
-        recipes.push(recipe);
-    })
-    resetList();
 
- })
+const recipesList = document.getElementById('result');
+        
+ const getJSON = async () => {
+     //Loading con JQuery
+        
+        
+     const response = await fetch ('./json/recipes.json')
+     const data = await response.json()
+     
+     //agrega las recetas del json al array recipes[]
+     data.forEach((recipe)=>{
+         recipes.push(recipe);
+        })
+        
+    //simulo una demora en la petición para poder ver el Loading.    
+        setTimeout(()=>{
+            $('#loading-cont').fadeOut();
+            resetList();
+        },1500)
+        
 
+    }
+    getJSON()
 
 // borrar resultados y volver a generar la lista de recetas completa a partir del array recipes.
 
-const recipesList = document.getElementById('result');
 
 function resetList(){
     recipesList.innerHTML="";
 
-    //Loading con JQuery
-    $('#result').prepend('<div id="loading"><img src="./img/loading.gif" alt=""></div>');
-    $('#result').css({
-        
-        overflow: 'hidden'
-    })
     
     recipes.forEach(e=>{
         
         let listItem = document.createElement('li');
-        $('#result>li').removeClass('visible')
-        $('#result>li').addClass('hidden')
         listItem.addEventListener('click', ()=>{
             hideRecetarioMenu();
             createModal(e);
@@ -93,19 +124,6 @@ function resetList(){
         recipesList.appendChild(listItem);
         
     })
-
-    setTimeout(()=>{
-        $('#result>li').addClass('visible')
-        $('#result>li').removeClass('hidden')
-        $('#result').css({
-            overflow: 'auto'
-        })
-        $('result>li').removeClass('')
-        $('#loading').css({
-            opacity:0,
-            visibility : 'hidden'
-        })
-    },400)
 }
 
 
