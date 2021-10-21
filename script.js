@@ -117,7 +117,7 @@ function resetList(){
             createModal(e);
         })
         listItem.innerHTML = `  <img src="${e.imagen}" alt="${e.name}">
-        <div class="recipe-info">
+        <div class="recipe-info noselect">
         <h4>${e.name}</h4>
         <h5>${e.descripcion}</h5>
         </div>`;
@@ -230,11 +230,13 @@ function showTags(e){
             resetList();
         })
         deleteTags.innerHTML = 'X';
+        deleteTags.classList.add('noselect')
         searchWords.appendChild(deleteTags);
         if(e==ingredientesDisponibles){
 
             e.forEach(e=>{
                 let tagItem = document.createElement('li');
+                tagItem.classList.add('noselect')
                 tagItem.innerHTML = `${e}`;
                 searchWords.appendChild(tagItem);
             })
@@ -268,7 +270,7 @@ searchIngredients.addEventListener('click', ()=>{
         document.getElementById('searchIngredientsCont').classList.toggle('onTop');
         solapaUno = true;
     }
-})
+},{capture:true})
 
 searchRecipes.addEventListener('click', ()=>{
     if (solapaUno == true){
@@ -280,7 +282,7 @@ searchRecipes.addEventListener('click', ()=>{
         document.getElementById('searchIngredientsCont').classList.toggle('onTop');
         solapaUno = false;
     }
-})
+},{capture:true})
 
 
 // Busqueda por ingredientes. Al ingresar separado por ',' se eliminan los espacios y 
