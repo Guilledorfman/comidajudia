@@ -13,9 +13,6 @@
               user-select: none;
   }
 
-.logo{
-    width: 3rem;
-}
 body{
     background-color: #f8f9fd;
     font-family: sans-serif;
@@ -38,22 +35,47 @@ body{
 /* =====NAV===== */
 
 
+.logo{
+    width: 3rem;
+    /* margin: 5px; */
+}
+.logocont{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .title{
     margin: 0;
+    font-size: 1.5rem;
     color: black;
     font-weight: 1;
 }
+.title2{
+    color: black;
+}
 .header{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #fff;
     padding-top: 3px;
     display: flex;
     width: 100%;
-    height: 30%;
+    height: 0%;
     min-height: 200px;
     min-width: 330px;
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.logoKosher{
+    cursor: pointer;
+    width: 50px;
+    position: absolute;
+    right: 10px;
 }
 .search-cont{
     width: 100%;
@@ -129,10 +151,12 @@ body{
     cursor:pointer;
 }
 .onTop{
+    
     z-index: 1000;
     box-shadow: 0px -4px 3px rgba(0, 0, 0, 0.1);
 }
 .subtitle{
+    
     font-size: .8rem;
     border-radius: 30px 30px 0 0;
     width: 10rem;
@@ -151,9 +175,11 @@ body{
     background-color: hsl(261, 93%, 59%);
 }
 .subtitle.ingredients{
+    
     left: 0;
 }
 .subtitle.name{
+    
     right: 0;    
 }
 .subtitle:hover{
@@ -174,6 +200,7 @@ body{
 /* =====RECETARIO===== */
 
 .recetario-cont{
+    
     height: 100vh;
     width: 100%;
     background-color: #272323de;
@@ -400,6 +427,7 @@ h5{
     border-radius: 100%;
     position: relative;
     z-index: 80;
+    display: flex;
     /* transition: transform 5s ease;
     transform: rotateZ(-360deg); */
     
