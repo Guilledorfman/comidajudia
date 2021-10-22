@@ -148,7 +148,10 @@ function createModal(e){
                                     <img src="${e.imagen}" alt="">
                                     <div class="texto">
                                     <h2>${e.name}</h2>
-                                    <p>${e.descripcion}</p>
+                                    <p>
+                                    <h5>Preparación: 1 hora</h5>
+                                    <h5>Porciones: 4</h5>
+                                    </p>
                                     </div>
                                 </div>
                                 <div class="receta-cont">

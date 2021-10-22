@@ -87,7 +87,7 @@
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/29-image/29-image_web.jpg",
         "descripcion": "La tahina es una pasta de Oriente Medio, hecha a partir de semillas de sésamo molidas, el secreto del humus al estilo israelí, es una cantidad de tehina, que es especial. "
     },
-    {
+    { 
         "name": "Sambusa, Samosa o Sambousek",
         "id": 12,
         "ingredientes": "1 kg de harina, 1 cucharadita de polvo para hornear, 300 gr de queso dambo o de barra, queso parmesano, 2 huevos, 1 cucharadita de queso blanco, aceite, sal, pimienta",

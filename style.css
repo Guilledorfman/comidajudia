@@ -15,7 +15,7 @@
 
 body{
     background-color: #f8f9fd;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,9 @@ body{
     color: black;
     font-weight: 1;
 }
+.title>b{
+    font-weight:800;
+}
 .title2{
     color: black;
 }
@@ -84,6 +87,7 @@ body{
     position: relative;
 }
 .search{
+    font-family: sans-serif;
     padding: 10px;
     display: flex;
     width: 100%;
@@ -444,6 +448,11 @@ h5{
     z-index:50;
     left: 150px;
     top: 120px;
+}
+
+footer>p{
+    text-align: center;
+    font-size: .7rem;
 }
 
 
