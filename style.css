@@ -74,7 +74,7 @@ body{
     position: relative;
 }
 
-.logoKosher{
+#logoKosher{
     cursor: pointer;
     width: 50px;
     position: absolute;
@@ -354,23 +354,27 @@ h5{
 
 .descripcion{
     display: flex;
+    /* justify-content: space-between; */
+    min-width: 320px;
     padding: 20px;
 }
 .descripcion img{
+    margin-right: 20px;
     object-fit: cover;
     min-width: 150px;
     min-height: 150px;
     width: 50px;
     height: 50px;
 }
-.descripcion h2,.descripcion p {
-    padding-left: 20px;
+.descripcion p {
+    outline: 1px solid #bbb3b3;
+    min-width: 150px;
 }
 .favoriteheart{
     position: absolute;
     right: 10px;
     top: 10px;
-    color: rgb(187, 179, 179);
+    color: #bbb3b3;
     height: 20px;
     font-size: 20px;
     transition: all .3s ease;
@@ -409,6 +413,62 @@ h5{
 #modal.visible{
     visibility: visible;
 }
+
+/* =====MODAL KOSHER====== */
+
+#modal-kosher{
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#modal-kosher.visible{
+    display: flex;
+}
+#modal-kosher>.info{
+    padding: 10px;
+    padding-left: 15px;
+    background-color: white;
+    max-width: 700px;
+    max-height: 100vh;
+    min-width: 330px;
+}
+#modal-kosher>.info>h2{
+ font-size: 1rem;
+ text-align: center;
+}
+#modal-kosher>.info>h3{
+    font-size: 1rem;
+}
+#modal-kosher>.info>p{
+font-size: .8rem;
+}
+#modal-kosher>.info>ul{
+    font-size: .8rem;
+}
+#modal-kosher>.info>ol{
+    font-size: .8rem;
+}
+#modal-kosher>.fotos{
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    min-width: 330px;
+}
+#modal-kosher>.fotos>img{
+    margin: auto;
+    width: 300px;
+}
+
+
 /* =====LOADING====== */
 
 #loading-cont{
@@ -449,9 +509,12 @@ h5{
     left: 150px;
     top: 120px;
 }
-
+footer{
+    height: 10%;
+    display: flex;
+}
 footer>p{
-    text-align: center;
+    margin: auto;
     font-size: .7rem;
 }
 

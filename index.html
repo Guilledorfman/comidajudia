@@ -30,7 +30,7 @@
                     <h5 class="title2">de recetas judías</h5>
                 </div>
             </div>
-            <img class="logoKosher" src="./img/Kosher_certification_logo.png" alt="logo">
+            <img id="logoKosher" src="./img/Kosher_certification_logo.png" alt="logo">
             <div class="kosherInfo-cont"></div>
             <div class="search-cont">
                 <div id="searchNameCont" class="search name">
@@ -52,6 +52,28 @@
                 
             </div>
         </header>
+        <div id="modal-kosher">
+            <div class="info">
+                <h2>Guía básica del Kashrut</h2>
+                <p>La palabra hebrea kosher significa "apto". Las leyes de kashrut definen los alimentos que son aptos para el consumo de un judío</p>
+                <h3>Bases del Kashrut</h3>
+                <ul>
+                    <li>La carne de ciertas especies de animales son permitidas para el consumo, mientras que otras son prohibidas. Además, una serie de leyes trata sobre cómo el animal debe ser faenado y qué partes del animal pueden ser ingeridas.</li>
+                    <li>Carne y leche no deben mezclarse nunca. Se utilizan utensilios separados para cada uno, y se observa un período de espera para comerlos.</li>
+                    <li>Frutas, vegetales y granos son siempre kosher, pero deben estar libres de insectos. El jugo de uva o el vino, sin embargo, deben ser certificados kosher.</li>
+                </ul>
+                <b>Las comidas kasher se dividen en tres categorías: carne, lácteos y parve.</b>
+                <ol>
+                    <li>La categoría de carne incluye carnes rojas y aves.</li>
+                    <li>Todos los alimentos derivados de la leche o que contienen leche son considerados lácteos esto incluye leche, manteca, yogur y todos los quesos.</li>
+                    <li>Los alimentos que no contienen carne ni lácteos son llamados parve, y pueden consumirse con cualquiera de las dos. Los alimentos parve más comunes son los huevos, pescados, granos, vegetales y frutas.</li>
+                </ol>
+            </div>
+            <div class="fotos">
+                <img src="https://www.recetasjudias.com/wp-content/uploads/2018/03/Kosher.jpg" alt="">
+            </div>
+
+        </div>
         <ul id="searchWords" class="searchWords">
         </ul>
 
@@ -66,7 +88,7 @@
 
         </ul>
 
-        <footer><p>Hecho por Guillermo Dorfman como trabajo práctico final para el curso de Javascript de Coderhouse.</p></footer>
+        <footer><p>Hecho por Guillermo Dorfman como trabajo práctico final para el curso de Javascript de Coderhouse.<br> Toda la información es de <a href="https://www.recetas-judias.com/">recetas-judias.com</a></p></footer>
     </div>
 
         <!-- JQuery -->
@@ -74,5 +96,6 @@
         <!--  -->
 
         <script src="script.js"></script>
+        <script src="visuals.js"></script>
 </body>
 </html>

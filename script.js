@@ -30,7 +30,7 @@ function updateStorage(){
 
 //Constructor de recetas
 class Recipe {
-    constructor (name, id, ingredientes, instrucciones, imagen, descripcion) {
+    constructor (name, id, ingredientes, instrucciones, imagen, descripcion, preparacion, porciones) {
         this.name = name;
         this.id = id;
         this.ingredientes = ingredientes;
@@ -38,6 +38,8 @@ class Recipe {
         this.imagen = imagen;
         this.missingIngredients = [];    
         this.descripcion = descripcion;
+        this.preparacion = preparacion;
+        this.porciones = porciones;
         this.favorited = false;
     }
     
@@ -47,32 +49,6 @@ class Recipe {
     }
 
 }
-
-//animacion del loading con JQuery
-
-animate1();
-
-
-function animate1(){
-    $(`#loading-ball2`).animate({width: '30px', height:['30px','swing'], top:['50px','swing'], left: '20px'},"slow",  
-    function(){        
-        $('#loading-ball2').css(        
-            'z-index', 100
-        )
-        animate2();
-    });
-}
-
-function animate2(){
-    $(`#loading-ball2`).animate({width:'20px', height:['20px','swing'], top:['120px','swing'], left: '150px'},"slow",  
-    function(){        
-        $('#loading-ball2').css(        
-            'z-index', 50
-        )
-        animate1();
-    });
-}
-
 
 //Array de recetas
 const recipes = [];
@@ -149,8 +125,8 @@ function createModal(e){
                                     <div class="texto">
                                     <h2>${e.name}</h2>
                                     <p>
-                                    <h5>Preparación: 1 hora</h5>
-                                    <h5>Porciones: 4</h5>
+                                    <h5>Preparación: ${e.preparacion}</h5>
+                                    <h5>Porciones: ${e.porciones}</h5>
                                     </p>
                                     </div>
                                 </div>
@@ -294,7 +270,7 @@ let userInput;
 let ingredientesDisponibles = [];
 
 function enterSearchIng(){
-    userInput = ingredientInput.value;
+    userInput = ingredientInput.value.toUpperCase();
     if(userInput){
         ingredientesDisponibles = userInput.split(',').filter(tag => tag.trim()
         !=='').map(tag=> tag.trim());
@@ -322,7 +298,7 @@ document.getElementById('searchIngBtn').addEventListener('click', ()=>{
 //busqueda por nombre
 
 function enterSearchName(){
-    userInput = recipeInput.value;
+    userInput = recipeInput.value.toUpperCase();
     if(userInput){
         recipeInput.value = ""
         searchWords.innerHTML= ""
@@ -356,7 +332,7 @@ function searchByIngredients(e){
     for (let i = 0; i < recipes.length; i++){
         recipeFound = true;
         for (let j = 0; j< ingredientesDisponibles.length; j++) {
-            if (recipes[i].ingredientes.indexOf(ingredientesDisponibles[j]) === -1) {
+            if (recipes[i].ingredientes.toUpperCase().indexOf(ingredientesDisponibles[j]) === -1) {
                 recipeFound = false;
                 break;
             }
@@ -376,7 +352,7 @@ function searchByIngredients(e){
 
 function searchByName(e){
     recipesList.innerHTML = "";
-    const inputName = e.toUpperCase();
+    const inputName = e;
     
     let recipeFound;
     let recetasPosibles = [];
@@ -416,7 +392,7 @@ function showRecipes(e){
 }
 
 
-//solapa recetario
+//slideDown recetario
 
 const recetarioMenu = document.getElementById('recetario');
 const solapaRecetario = document.getElementById('solapaRecetario');
@@ -464,5 +440,7 @@ function generarRecetario(){
     
 }
 
+const kosherButton = document.getElementById('logoKosher');
 
+kosherButton.addEventListener
 
