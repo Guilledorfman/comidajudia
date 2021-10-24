@@ -440,7 +440,3 @@ function generarRecetario(){
     
 }
 
-const kosherButton = document.getElementById('logoKosher');
-
-kosherButton.addEventListener
-
