@@ -49,7 +49,7 @@ $('#categories_btn').click(()=>{
 
 //oculta footer cuando se scrollea hasta el final
 $('#result').scroll((e)=>{
-    if ($('#result').scrollTop() > 2600){
+    if ($('#result').scrollTop() > 500){
         
         $('footer').fadeOut();
     }else{
