@@ -30,7 +30,7 @@ function updateStorage(){
 
 //Constructor de recetas
 class Recipe {
-    constructor (name, id, ingredientes, instrucciones, imagen, descripcion, preparacion, porciones) {
+    constructor (name, id, ingredientes, instrucciones, imagen, descripcion, preparacion, porciones, categoria) {
         this.name = name;
         this.id = id;
         this.ingredientes = ingredientes;
@@ -40,6 +40,7 @@ class Recipe {
         this.descripcion = descripcion;
         this.preparacion = preparacion;
         this.porciones = porciones;
+        this.categoria = categoria;
         this.favorited = false;
     }
     
@@ -57,7 +58,6 @@ const recipes = [];
 const recipesList = document.getElementById('result');
         
  const getJSON = async () => {
-     //Loading con JQuery
         
         
      const response = await fetch ('./json/recipes.json')
@@ -71,38 +71,15 @@ const recipesList = document.getElementById('result');
     //simulo una demora en la petición para poder ver el Loading.    
         setTimeout(()=>{
             $('#loading-cont').fadeOut();
-            resetList();
+            showRecipes(recipes);
         },1500)
         
 
     }
     getJSON()
 
-// borrar resultados y volver a generar la lista de recetas completa a partir del array recipes.
 
-
-function resetList(){
-    recipesList.innerHTML="";
-
-    
-    recipes.forEach(e=>{
-        
-        let listItem = document.createElement('li');
-        listItem.addEventListener('click', ()=>{
-            hideRecetarioMenu();
-            createModal(e);
-        })
-        listItem.innerHTML = `  <img src="${e.imagen}" alt="${e.name}">
-        <div class="recipe-info noselect">
-        <h4>${e.name}</h4>
-        <h5>${e.descripcion}</h5>
-        </div>`;
-        recipesList.appendChild(listItem);
-        
-    })
-}
-
-
+//modal recetas
 
 let currentId = 0;
 
@@ -118,6 +95,21 @@ function createModal(e){
         }
     })
 
+    
+    let instruccionesLista = [];
+    let ingredientesLista = e.ingredientes.split(',');
+
+
+    for(let i=0;i<ingredientesLista.length;i++){
+        ingredientesLista[i] = `<li>${ingredientesLista[i]}</li>`;
+    }
+
+    
+
+    for(let i=0;i<e.instrucciones.length;i++){
+        instruccionesLista.push(`<li>${e.instrucciones[i]}</li>`)
+    }
+
     let recipeModal = document.createElement('div');
     recipeModal.classList.add('modal-cont')
     recipeModal.innerHTML = `   <div class="descripcion">
@@ -127,12 +119,14 @@ function createModal(e){
                                     <p>
                                     <h5>Preparación: ${e.preparacion}</h5>
                                     <h5>Porciones: ${e.porciones}</h5>
+                                    <h5 class="categoria ${e.categoria}">${e.categoria}</h5>
                                     </p>
                                     </div>
                                 </div>
                                 <div class="receta-cont">
-                                    <p class="ingredientes">${e.ingredientes}</p>
-                                    <p class="receta">${e.instrucciones}</p>
+                                    <ul class="ingredientes">${ingredientesLista.join('')}</ul>
+                                    <ol class="receta">${instruccionesLista.join('')}</ol>
+
                                 </div>`          
 
       //creo agregar al recetario                       
@@ -141,7 +135,7 @@ function createModal(e){
         favorite(e);
         generarRecetario();
     })
-    favoriteheart.classList.add('favoriteheart', 'material-icons-outlined')
+    favoriteheart.classList.add('favoriteheart', 'material-icons-outlined', 'noselect')
     favoriteheart.innerHTML = "favorite";
 
     //si el id de la receta está en el array recetario, pinta el corazon de rojo
@@ -191,7 +185,7 @@ function showNoResults(){
     recipesList.appendChild(listItem);
     listItem.addEventListener('click', ()=>{
         searchWords.innerHTML= ""
-        resetList();
+        showRecipes(recipes);
     })
 }
 
@@ -206,7 +200,7 @@ function showTags(e){
         deleteTags.addEventListener('click', ()=>{
             searchWords.innerHTML= ""
             ingredientesDisponibles = ""
-            resetList();
+            showRecipes(recipes);
         })
         deleteTags.innerHTML = 'X';
         deleteTags.classList.add('noselect')
@@ -244,7 +238,7 @@ searchIngredients.addEventListener('click', ()=>{
         recipeInput.value = ""
         ingredientInput.value = ""
         searchWords.innerHTML= ""
-        resetList()
+        showRecipes(recipes);
         document.getElementById('searchNameCont').classList.toggle('onTop');
         document.getElementById('searchIngredientsCont').classList.toggle('onTop');
         solapaUno = true;
@@ -256,13 +250,55 @@ searchRecipes.addEventListener('click', ()=>{
         recipeInput.value = ""
         ingredientInput.value = ""
         searchWords.innerHTML= ""
-        resetList()
+        showRecipes(recipes);
         document.getElementById('searchNameCont').classList.toggle('onTop');
         document.getElementById('searchIngredientsCont').classList.toggle('onTop');
         solapaUno = false;
     }
 },{capture:true})
 
+
+//Botones de categorías
+
+const botonesCategorias = document.querySelectorAll('.categoria_li')
+
+botonesCategorias.forEach(categoria=>{
+
+    categoria.addEventListener('click', (e)=>{
+
+        filterCategories(e.target.innerText);
+
+        // El resto del codigo de animacion de la solapa
+        // de categorias está en el archivo visuals.js
+        $('#categories').slideUp();
+        categoriesVisible = false;
+    })
+})
+
+
+//Filtro por categoria
+
+function filterCategories(e){
+    searchWords.innerHTML= "";
+    recipesList.innerHTML = "";
+    let categoriaElegida = e;
+    let recetasPosibles = [];
+    
+    recipes.forEach(recipe=>{
+        if(recipe.categoria.toUpperCase() === categoriaElegida.toUpperCase()){
+            recetasPosibles.push(recipe);
+        }
+    })
+    showRecipes(recetasPosibles);
+}
+
+const mostrarTodo = document.getElementById('categoriaTodas');
+categoriaTodas.addEventListener('click', ()=>{
+    searchWords.innerHTML= "";
+    showRecipes(recipes);
+    $('#categories').slideUp();
+    categoriesVisible = false;
+})
 
 // Busqueda por ingredientes. Al ingresar separado por ',' se eliminan los espacios y 
 //se agrega un nuevo elemento al array ingredientesDisponibles
@@ -372,9 +408,12 @@ function searchByName(e){
     
 }
 
-//Muestra los resultados del array recetasPosibles.
+
+
+//Muestra las recetas que le mando como parámetro, para mostrar todas le mando el array recipes[].
 
 function showRecipes(e){
+    recipesList.innerHTML="";
     e.forEach(e=>{
         
         let listItem = document.createElement('li');
@@ -386,6 +425,7 @@ function showRecipes(e){
         <div class="recipe-info">
         <h4>${e.name}</h4>
         <h5>${e.descripcion}</h5>
+        <h3 class="categoria ${e.categoria}">${e.categoria}</h3>
         </div>`;
         recipesList.appendChild(listItem);
     })
@@ -417,6 +457,7 @@ function generarRecetario(){
         recetasGuardadas.innerHTML = '<p><br><b>No hay nada por aquí</b><br>En esta sección podrás ver las recetas que guardaste en favoritos.</p>'
     }else{
         const tituloRecetario = document.createElement('div');
+        tituloRecetario.classList.add('tituloRecetario')
         tituloRecetario.innerHTML = '<h2>Recetario</h2>Recetas guardadas'
         recetasGuardadas.appendChild(tituloRecetario);
         recetario.forEach(e=>{

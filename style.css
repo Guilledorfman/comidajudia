@@ -20,6 +20,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: auto;
     width: 100vw;
     overflow: hidden;
 }
@@ -61,7 +62,7 @@ body{
     background: #1c92d2;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    outline: 1px solid red;
     color: #fff;
     padding-top: 3px;
     display: flex;
@@ -82,21 +83,21 @@ body{
 }
 .search-cont{
     width: 100%;
-    height: 100%;
-    margin: auto;
-    position: relative;
+    height: 40%;
+    margin-top: auto;
+    /* position: relative; */
 }
 .search{
     font-family: sans-serif;
     padding: 10px;
     display: flex;
     width: 100%;
-    height: 60%;
+    height: 40%;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     z-index: 0;
 }
 .input-cont{
@@ -119,28 +120,76 @@ body{
     font-size: .8rem;
     opacity: .8;
 }
+#categories{
+    list-style: none;
+    /* position: absolute; */
+    z-index: 3000;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    min-width: 320px;
+    background-color: #272323de;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.categoria_li{ 
+    display: flex;
+    height: 60%;
+    flex: 2;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#categoriaTodas{
+    background-color: hsl(118, 30%, 42%);
+    height: 60%;
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#categories_btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2723232c;
+    font-family: sans-serif;
+    border-radius: 0 0 10px 10px;
+    color: rgb(44, 44, 44);
+}
 .searchWords{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-size: 1rem;
+    justify-content: center;
+    font-size: .8rem;
     background-color: #eee;
     padding: 5px;
+    font-family: sans-serif;
 }
 .searchWords>li{
     margin-left: 10px;
     margin-top: 10px;
     margin:auto;
-    background-color: #ddd;
+    background-color: #3674f8;
+    color: white;
     text-align: center;
     min-width: 40px;
     list-style: none;
     padding: 8px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .searchWords>b{
     margin-bottom: auto;
+    margin-top: auto;
     margin-right: auto;
+    margin-left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +253,6 @@ body{
 /* =====RECETARIO===== */
 
 .recetario-cont{
-    
     height: 100vh;
     width: 100%;
     background-color: #272323de;
@@ -215,6 +263,13 @@ body{
     top: -100vh;
     z-index:8000;
     transition: transform .4s ease;
+
+}
+.tituloRecetario{
+    position: sticky;
+    top: 0;
+    background-color: #36393d
+    
 }
 .recetario{
     position: absolute;
@@ -229,6 +284,7 @@ body{
     left:0px;
     bottom: -60px;
     margin:auto;
+
 }
 .recetario:hover{
     cursor: pointer;
@@ -236,16 +292,15 @@ body{
 #recetasGuardadas{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 85%;
+    top: 60px;
     margin: auto;
-    bottom: -100px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
     text-align: center;
     color: white;
-    overflow-y: auto;
+    overflow: auto;
 }
 #recetasGuardadas>div{
     width: 100%;
@@ -283,6 +338,33 @@ h5{
     font-weight: 10;
 }
 
+h3.categoria{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 6px;
+    font-size: .9rem;
+    font-family: sans-serif;
+    border-radius: 30px;
+    color: white;
+}
+
+.entradas{
+    background-color: hsl(41, 98%, 56%);
+}
+
+.principal{
+    background-color: hsl(41, 98%, 26%);
+}
+
+.sopas{
+    background-color: hsl(216, 30%, 42%);
+}
+
+.reposteria{
+    background-color: hsl(318, 30%, 42%);
+}
+
 .recipe-list{
     position: relative;
     background-color: white;
@@ -293,6 +375,7 @@ h5{
     padding: 0;
 }
 .recipe-list>li{
+    position: relative;
     display: flex;
     padding: 20px;
 }
@@ -354,7 +437,6 @@ h5{
 
 .descripcion{
     display: flex;
-    /* justify-content: space-between; */
     min-width: 320px;
     padding: 20px;
 }
@@ -369,6 +451,10 @@ h5{
 .descripcion p {
     outline: 1px solid #bbb3b3;
     min-width: 150px;
+}
+h5.categoria{
+    color: white;
+    text-align: center;
 }
 .favoriteheart{
     position: absolute;
@@ -390,9 +476,10 @@ h5{
     color: rgba(255, 0, 0, 0.782);
 }
 .receta-cont{
+    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
     background-color: #f2f7fa;
     height: 100%;
@@ -403,10 +490,18 @@ h5{
     color: #0af;
     padding: 10px;
     border-right: 2px solid #0af;
+    margin-left: 30px;
 }
 .receta-cont>.receta{
-    width: 60%;
+    width: 65%;
     margin-right: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 330px;
+}
+.receta>li{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
 }
 
 
@@ -522,6 +617,9 @@ footer>p{
 /* para pantallas grandes */
 
 @media (min-width: 1000px) {
+    .header{
+        min-height: 160px;
+    }
     .recipe-list{
         display: flex;
         flex-wrap: wrap;
@@ -542,6 +640,10 @@ footer>p{
         min-width: 180px;
         min-height: 180px;
         margin-bottom: 20px;
+    }
+    h3.categoria{
+        right: 25%;
+        top: 20px;
     }
     .subtitle.ingredients{
         left: 200px;

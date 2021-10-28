@@ -29,3 +29,19 @@ $('#modal-kosher').click(()=>{
 $('#logoKosher').click(()=>{
     $('#modal-kosher').addClass('visible')
 })
+
+
+$('#categories').hide();
+let categoriesVisible = false;
+
+
+$('#categories_btn').click(()=>{
+    if(!categoriesVisible){
+        $('#categories').slideDown();
+        categoriesVisible = true;
+    }else{
+        $('#categories').slideUp();
+        categoriesVisible = false;
+    }
+
+})

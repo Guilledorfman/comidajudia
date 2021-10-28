@@ -3,200 +3,264 @@
         "name": "Guefilte fish",
         "id": 1,
         "ingredientes": "2 kg de pescado, 2 cebollas, perejil, apio, 1/4 de taza de harina de matza, 2 yemas de huevos, sal, pimienta, azucar",
-        "instrucciones": "Limpiar el pescado quitando toda la piel desde la cabeza hasta la cola evitando rasgarla. Lavar la piel y dejarla secar. Picar la carne del pescado reservando la cabeza y las espinas. Sofreír las 2 cebollas hasta que doren con un poco de perejil picado y mezclarlo con el pescado. Agregar un cuarto de taza de harina de matza, 2 yemas, sal, pimienta y una pisca de azucar. Rellenar la piel con la mezcla y salar por fuera. Colocar el pescado en una olla grande, forrada con las espinas, la cabeza, una cebolla en rodajas, hojas del perejil y del apio. Cubra todo con agua hirviendo y cocinar durante dos horas hasta que se le seque el agua, no colocarle tapa. Colocar el pescado en una fuente. Colar la salsa que ha quedado en la olla. Incorporar dos yemas de huevo y algunas rodajas de limón y dejar hervir. Al espesar retire del fuego y añadir caliente sobre el pescado. Servir. ¡Buen provecho para todos!",
+        "instrucciones": ["Limpiar el pescado quitando toda la piel desde la cabeza hasta la cola evitando rasgarla.","Lavar la piel y dejarla secar.","Picar la carne del pescado reservando la cabeza y las espinas.", "Sofreír las 2 cebollas hasta que doren con un poco de perejil picado y mezclarlo con el pescado.","Agregar un cuarto de taza de harina de matzá, 2 yemas, sal, pimienta y una pisca de azúcar","Rellenar la piel con la mezcla y salar por fuera.","Colocar el pescado en una olla grande, forrada con las espinas, la cabeza, una cebolla en rodajas, hojas del perejil y del apio.","Cubra todo con agua hirviendo y cocinar durante dos horas hasta que se le seque el agua, no colocarle tapa.","Colocar el pescado en una fuente.","Colar la salsa que ha quedado en la olla. Incorporar dos yemas de huevo y algunas rodajas de limón y dejar hervir.","Al espesar retire del fuego y añadir caliente sobre el pescado.","Servir. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/62-image/62-image_small.jpg",
         "descripcion": "El guefilte fish, es una receta de tradición de la comunidad judia askenazi, un plato muy sabroso y fuera de lo comun, hecho con la variedad de pescado que más te guste.",
         "preparacion": "1 hora",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "principal"
     },
     {
         "name": "Falafel",
         "id": 2,
         "ingredientes": "300gr de garbanzos, 100 gr de harina de garbanzos, 5 gr de levadura, 10 gr de comino molido, 100 gr de cebolla, 1 diente de ajo, cilantro, perejil, pimienta, aceite, sal",
-        "instrucciones": "Se empieza poniendo los garbanzos en remojo durante 24. Transcurrido este tiempo, se escurre y se pone a secar bien para que no queden restos de agua. Se agregan los garbanzos hidratados en un vaso de cocina o una batidora, junto con el diente de ajo, la cebolla picadas, las hojas de cilantro, de perejil y el comino molido. Luego debes triturar. A continuación, se añade la harina de garbanzos (reserva un par de cucharadas para cubrir la base de la fuente), la levadura y sazona con sal y pimienta al gusto. Se tritura de nuevo, hasta obtener una mezcla homogénea. Deja reposar la masa, en la nevera, durante 30 minutos. Con la mano, debes formar pequeñas bolitas del tamaño de una nuez y colóquelas en la fuente con la harina de garbanzos, al tiempo que debe rebozarlas de forma ligera. Monte en la cocina una sartén con abundante aceite y se pone a freír las bolitas, a fuego medio-alto, se doren por igual por ambos lados. Retire a un plato con papel absorbente y deje escurrir un par de minutos antes de servir. Se sirve con una salsa de tzatziki, y una ensalada de hojas verdes. ¡Buen provecho para todos!",
+        "instrucciones": ["Se empieza poniendo los garbanzos en remojo durante 24. Transcurrido este tiempo, se escurre y se pone a secar bien para que no queden restos de agua.","Se agregan los garbanzos hidratados en un vaso de cocina o una batidora, junto con el diente de ajo, la cebolla picadas, las hojas de cilantro, de perejil y el comino molido. Luego debes triturar.","A continuación, se añade la harina de garbanzos (reserva un par de cucharadas para cubrir la base de la fuente), la levadura y sazona con sal y pimienta al gusto. Se tritura de nuevo, hasta obtener una mezcla homogénea. Deja reposar la masa, en la nevera, durante 30 minutos.","Con la mano, debes formar pequeñas bolitas del tamaño de una nuez y colóquelas en la fuente con la harina de garbanzos, al tiempo que debe rebozarlas de forma ligera.","Monte en la cocina una sartén con abundante aceite y se pone a freír las bolitas, a fuego medio-alto, se doren por igual por ambos lados. Retire a un plato con papel absorbente y deje escurrir un par de minutos antes de servir.", "Se sirve con una salsa de tzatziki, y una ensalada de hojas verdes. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/6-image/6-image_small.jpg",
         "descripcion": "Plato con sello árabe, cuyo origen se remonta en la India, son croquetas fritas elaboradas con garbanzos triturados. Son riquísimas, y se acompañan con crema tzatziki. Un perfecto y nutritivo entrante.",
         "preparacion": "30 minutos",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "principal"
     },
     {
         "name": "Jala",
         "id": 3,
         "ingredientes": "1 kg de harina, 1 huevo, 50 gr de levadura, 400 ml de agua tibia, aceite de oliva, azucar, sal",
-        "instrucciones": "Diluya la levadura en el agua tibia, reserve bien. Ponga en un recipiente, la harina, la sal, el azucar, el aceite y el huevo batido. Por ultimo, se agrega la levadura ya diluida. Amase bien con las manos, si queda algo pegajosa, se aumenta un poco más de harina, hasta que la masa quede suave y se despegue de la mano. Deje reposar una hora, vuelva a amasar, luego forme las trenzas. Por ultimo, en una bandeja, meta el pan en el horno, que debió estar calentándose a medio fuego. Queda a gusto de cada uno pintar con huevo y decorar con semillas. Acompañe con un rico hummus. ¡Buen provecho para todos!",
+        "instrucciones": ["Diluya la levadura en el agua tibia, reserve bien.","Ponga en un recipiente, la harina, la sal, el azúcar, el aceite y el huevo batido. Por último, se agrega la levadura ya diluida.","Amase bien con las manos, si queda algo pegajosa, se aumenta un poco más de harina, hasta que la masa quede suave y se despegue de la mano.","Deje reposar una hora, vuelva a amasar, luego forme las trenzas.","Por último, en una bandeja, meta el pan en el horno, que debió estar calentándose a medio fuego.","Queda a gusto de cada uno pintar con huevo y decorar con semillas. Acompañe con un rico hummus. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/22-image/22-image_small.jpg",
         "descripcion": "El Jalá es un pan trenzado, se consume muy frecuente en el Shabat, festividades judías, entre otros encuentros. Muy rico si se acompaña con un hummus. ",
         "preparacion": "1 hora",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "entradas"
     },
     {
         "name": "Lajmashin",
         "id": 4,
         "ingredientes": "1 kg de harina de trigo, 50 gr. de levadura, 1 kg de carne picada, 2 limones, 1 cucharadita de comino, 1 cucharadita de barat, salsa de tomate, azucar, sal, aceite",
-        "instrucciones": "Para preparar la masa, debe tamizar la harina en un bol. En otro bol, diluir la levadura con 1 3/4 vaso de agua. Junta todo y amasa. Dejar leudar, preferible, cerca del calor de la hornilla de la cocina. En una sartén con aceite, dore la cebolla picada. Prepare en un bol, agregue la carne picada cruda, con el jugo de los limones, el comino, barat y por ultimo incorporar a salsa de tomate y el azucar. Mezcle todo con la cebolla dorada. Con la masa, elabore con las manos, bolitas más chiquitas que la palma de la mano, y con el palo de amasar, aplastalas. Tienen que quedar como tapitas de empanadas. Colocar el relleno y doblar las puntas hacia adentro, y formar un triángulo. O se puede hacer abierto con aceite entre la masa y el relleno. Usted elija. Se pueden pintar con huevo para dorar la masa. Cocine en placa para horno con aceite entre 15 y 20 minutos a fuego medio-alto. ¡Buen provecho para todos!",
+        "instrucciones": ["Para preparar la masa, debe tamizar la harina en un bol. En otro bol, diluir la levadura con 1 3/4 vaso de agua. Junta todo y amasa. Dejar leudar, preferible, cerca del calor de la hornilla de la cocina.","En una sartén con aceite, dore la cebolla picada.","Prepare en un bol, agregue la carne picada cruda, con el jugo de los limones, el comino, barat y por último incorporar a salsa de tomate y el azúcar. Mezcle todo con la cebolla dorada.","Con la masa, elabore con las manos, bolitas más chiquitas que la palma de la mano, y con el palo de amasar, aplastalas. Tienen que quedar como tapitas de empanadas.","Colocar el relleno y doblar las puntas hacia adentro, y formar un triángulo. O se puede hacer abierto con aceite entre la masa y el relleno. Usted elija. Se pueden pintar con huevo para dorar la masa.","Cocine en placa para horno con aceite entre 15 y 20 minutos a fuego medio-alto. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/11-image/11-image_small.jpg",
         "descripcion": "Un aperitivo parecido a las empanadas Árabes, pero su preparación es abierta, dejando visible el relleno. Este plato, ha influenciado al mediterránea, y por supuesto, a la gastronomía judía. ",
         "preparacion": "1 hora",
-        "porciones": 16
+        "porciones": 16,
+        "categoria": "entradas"
     },
     {
         "name": "Goulash",
         "id": 5,
         "ingredientes": "1 kg de cordero, 1 cebolla, 2 zanahorias, 1 pimiento, 2 cucharadas de aceite, pimenton, ajo, 1lt de caldo, salsa de soja, 2 hojas de laurel, 2 cucharadas de concentrado de tomate, 200 gr de champiñón, manteca, 2 cucharadas de harina, aceite de oliva",
-        "instrucciones": "Corta la carne en dados de 1,5 cm. Pela la cebolla y córtala en dados. Pele la zanahoria y córtela en rodajas. Corta los pimientos en dados. Calentar una cucharada de aceite en una olla ancha, añadir el tocino y la cebolla, glasearlo. Añade una segunda cucharada de aceite de oliva, pon las zanahorias y los pimientos y fríe todo durante unos minutos. Mientras tanto calienta el aceite en una sartén, aparte y fríe los trozos de carne. Sazonarlas con sal y pimienta y transferirlas a la olla con verduras. Si lo tienes todo, puedes regar alrededor de 1/3 del vaso de vino (tinto o blanco) y sobre un calor más alto evaporarse por un tiempo. Sazona el contenido de la olla con pimentón molido y el ajo. Vierta el caldo caliente en cantidad suficiente para cubrir los ingredientes. Añade salsa de soja, pimienta de Jamaica y laurel, tapa y guisa a fuego lento durante 1 hora y media hasta que la carne esté blanda. Finalmente, agregue concentrado de tomate y champiñones fritos en oro. Calentar bien la mantequilla en una sartén, añadir la harina y freírla un rato, removiendo. Poner en una olla, mezclar bien y hervir. ¡Buen provecho para todos!",
+        "instrucciones": ["Corta la carne en dados de 1,5 cm. Pela la cebolla y córtala en dados. Pele la zanahoria y córtela en rodajas. Corta los pimientos en dados.","Calentar una cucharada de aceite en una olla ancha, añadir el tocino y la cebolla, glasearlo. Añade una segunda cucharada de aceite de oliva, pon las zanahorias y los pimientos y fríe todo durante unos minutos.","Mientras tanto calienta el aceite en una sartén, aparte y fríe los trozos de carne. Sazonarlas con sal y pimienta y transferirlas a la olla con verduras. Si lo tienes todo, puedes regar alrededor de 1/3 del vaso de vino (tinto o blanco) y sobre un calor más alto evaporarse por un tiempo.","Sazona el contenido de la olla con pimentón molido y el ajo. Vierta el caldo caliente en cantidad suficiente para cubrir los ingredientes. Añade salsa de soja, pimienta de Jamaica y laurel, tapa y guisa a fuego lento durante 1 hora y media hasta que la carne esté blanda. Finalmente, agregue concentrado de tomate y champiñones fritos en oro.","Calentar bien la mantequilla en una sartén, añadir la harina y freírla un rato, removiendo. Poner en una olla, mezclar bien y hervir. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/106-image/106-image_web.jpg",
         "descripcion": "El gulasch hungaro, es un plato aromático y esencial condimentado con una gran cantidad de pimentón molido, con la adición de zanahorias, pimientos y setas fritas. ",
         "preparacion": "2 horas",
-        "porciones": 8
+        "porciones": 8,
+        "categoria": "principal"
     },
     {
         "name": "Sopa de kneidelaj",
         "id": 6,
         "ingredientes": "1 pollo entero trozado y sin cuero, 2 cebollas, 4 zanahorias sin pelar, 3 zanahorias peladas, 1 puerro, 1 nabo, cilantro o perejil, fideos de huevo, 4 o 5 matzot, 2 huevos batidos, harina de matza (cantidad necesaria), 1/2 cebolla, sal, pimienta, comino, nuez moscada, 1 pocillo de aceite",
-        "instrucciones": "En una olla grande, colocar las presas de pollo (con todos (los huesos), las cebollas, las zanahorias, el nabo y el puerro. Cubrir completamente con agua y dejar cocinar a fuego lento unas dos horas. Si el agua se reduce, agregar más. El caldo se cuela y se descarta los vegetales. Luego se separan los huesos del pollo y se corta en pedacitos pequeños( del tamaño de un bocado) Condimentar el caldo a su gusto, si lo prefiere puede incorporar un caldo de verdura o pollo. Incorporar los bastoncitos de zanahoria y dejar que se cocinen suavemente. Triturar las matzot en un envase grande y cubrir con agua caliente para que se deshagan. En una olla o sartén grande y profundo, se dora la cebollita. Se agregan las hierbas y condimentos y un poquito de agua si la mezcla se pega en el fondo del sartén. Colar las matzot y sacarles toda el agua que se pueda (estrujar). Agregar a la olla o sartén donde está el sofrito, bajar el fuego y cocinar, revolviendo, hasta que el agua se evapore y se vea el fondo del sartén. Retirar del fuego y dejar que se enfríe. Al enfriar, incorporar los huevos batidos y poco a poco la harina de matza hasta lograr una mezcla ni muy dura ni muy suave. Hay que ir probando por cuanto algunos les gusta las bolas blanditas y otros duras. Para preparar las bolitas se untan las manos con un poco de aceite y se les da forma del tamaño de una nuez más o menos (aumentan bastante en el caldo). Se colocan en una bandeja cubierta con un poco de harina de matza para que no se peguen. Una vez listas, se incorporan en el caldo caliente una por una y se tapa la olla durante 20 minutos. Calentar una cucharada de aceite en un sartén. Batir dos huevos, poner sal a gusto y vaciar sobre el sartén cubriendo el fondo, se da vuelta para que se cocine por el otro lado. Retirar y enrollar como un taco. Con un cuchillo picar en tiras del ancho de un fideo y reservar. Para servir la sopa se colocan 2 o 3 bolitas en un plato, un pedacito de pollo, 2 o 3 palitos de zanahoria y una porción de caldo. Se agrega un poco de “fideos” y cilantro o perejil al gusto. ¡Buen provecho para todos! ",
+        "instrucciones": ["En una olla grande, colocar las presas de pollo (con todos (los huesos), las cebollas, las zanahorias, el nabo y el puerro. Cubrir completamente con agua y dejar cocinar a fuego lento unas dos horas. Si el agua se reduce, agregar más.","El caldo se cuela y se descarta los vegetales.","Luego se separan los huesos del pollo y se corta en pedacitos pequeños( del tamaño de un bocado)", "Condimentar el caldo a su gusto, si lo prefiere puede incorporar un caldo de verdura o pollo", "Incorporar los bastoncitos de zanahoria y dejar que se cocinen suavemente.", "Triturar las matzot en un envase grande y cubrir con agua caliente para que se deshagan.", "En una olla o sartén grande y profundo, se dora la cebollita", "Se agregan las hierbas y condimentos y un poquito de agua si la mezcla se pega en el fondo del sartén.", "Colar las matzot y sacarles toda el agua que se pueda (estrujar).", "Agregar a la olla o sartén donde está el sofrito, bajar el fuego y cocinar, revolviendo, hasta que el agua se evapore y se vea el fondo del sartén. Retirar del fuego y dejar que se enfríe.", "Al enfriar, incorporar los huevos batidos y poco a poco la harina de matzá hasta lograr una mezcla ni muy dura ni muy suave,", "Hay que ir probando por cuanto algunos les gusta las bolas blanditas y otros duras.", "Para preparar las bolitas se untan las manos con un poco de aceite y se les da forma del tamaño de una nuez más o menos (aumentan bastante en el caldo).", "Se colocan en una bandeja cubierta con un poco de harina de matzá para que no se peguen.", "Una vez listas, se incorporan en el caldo caliente una por una y se tapa la olla durante 20 minutos.", "Calentar una cucharada de aceite en un sartén.", "Batir dos huevos, poner sal a gusto y vaciar sobre el sartén cubriendo el fondo, se da vuelta para que se cocine por el otro lado.", "Retirar y enrollar como un taco. Con un cuchillo picar en tiras del ancho de un fideo y reservar.", "Para servir la sopa", "Se colocan 2 o 3 bolitas en un plato, un pedacito de pollo, 2 o 3 palitos de zanahoria y una porción de caldo.", "Se agrega un poco de “fideos” y cilantro o perejil al gusto. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/45-image/45-image_web.jpg",
         "descripcion": "La tradicional comida de PESAJ!",
         "preparacion": "1 hora",
-        "porciones": 10
+        "porciones": 10,
+        "categoria": "sopas"
     },
     {
         "name": "Baba ghanoush",
         "id": 7,
         "ingredientes": "1 kg de berenjenas grandes, 1/2 taza de tahini, 3 dientes de ajo, jugo de 2 limones, aceite de oliva, sal, perejil",
-        "instrucciones": "Pinche las berenjenas con todo y concha, la colocas en una bandeja y mételas al horno hasta que este bien blanditas. Cuando estén listas, sácalas y le quitas la concha y tritura muy bien la pulpa, que quede como un puré, reserva. Machaca los ajos, agrega sal, el jugo de limón y la crema de ajonjolí, esto se lo añades a las berenjenas y lo mezclas bien. Corrige la sal y sírvelo en bandejas. Adornamos con el perejil picado y el aceite de oliva. Coloca alrededor, pan de pita. ¡Buen provecho para todos!",
+        "instrucciones": ["Pinche las berenjenas con todo y piel, la colocas en una bandeja y mételas al horno hasta que este bien blanditas.", "Cuando estén listas, sácalas y le quitas la concha y tritura muy bien la pulpa, que quede como un puré, reserva.","Machaca los ajos, agrega sal, el jugo de limón y la crema de ajonjolí, esto se lo añades a las berenjenas y lo mezclas bien.", "Corrige la sal y sírvelo en bandejas. Adornamos con el perejil picado y el aceite de oliva. Coloca alrededor, pan de pita. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/19-image/19-image_web.jpg",
         "descripcion": "El Baba ganoush, es una pasta o dip preparado a base de berenjenas, muy similar al hummus, oriundo de Oriente Medio. Este manjar, se acompaña con pan pita.",
         "preparacion": "1 hora",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "entradas"
     },
     {
         "name": "Hummus de garbanzo",
         "id": 8,
         "ingredientes": "250 gr de garbanzos cocidos, 1 cucharadita de comino, 1 cucharadita de pimenton dulce molido, 2 dientes de ajo, 2 ramas de perejil, pimienta, el jugo de 1 limon, 1 cucharadita de albahaca, sal",
-        "instrucciones": "En un recipiente alto y hondo, agregue los garbanzos, y con una batidora, bátalo bien. O puede usar un mortero. Pique en un mortero los cominos, los dientes de ajo y el perejil tierno; una vez hecho, se añade a los garbanzos ya molidos, junto con el jugo de un limón, la cucharadita de pimentón dulce, la de albahaca, un poquito de pimienta y sal (a su gusto). Vuelva a batir, esta vez, no mucho, que queden trocitos de perejil visibles. Es preferible servir en frío acompañado de un pan de pita. ¡Buen provecho para todos!",
+        "instrucciones": ["En un recipiente alto y hondo, agregue los garbanzos, y con una batidora, bátalo bien. O puede usar un mortero.","Pique en un mortero los cominos, los dientes de ajo y el perejil tierno; una vez hecho, se añade a los garbanzos ya molidos, junto con el jugo de un limón, la cucharadita de pimentón dulce, la de albahaca, un poquito de pimienta y sal (a su gusto).","Vuelva a batir, esta vez, no mucho, que queden trocitos de perejil visibles.","Es preferible servir en frío acompañado de un pan de pita. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/13-image/13-image_web.jpg",
         "descripcion": "El hummus es una crema, en especial, de garbanzos cocidos, mezclado con zumo de limón. Es muy popular en fiestas y encuentros familiares. Su origen es de Oriente Medio, con gran arraigo en Israel. ",
         "preparacion": "1 hora",
-        "porciones": 8
+        "porciones": 8,
+        "categoria": "entradas"
     },
     {
         "name": "Bohios de acelga",
         "id": 9,
         "ingredientes": "500 gr de harina leudante, 200 gr de queso rallado, 2 atados de acelga, 1 cucharada de harina, sal, aceite",
-        "instrucciones": "Vierte los 500 gr. de harina leudante en un bol, agrega la sal, agua suficiente y amase bien hasta formar una masa uniforme. Preparar bolitas de masas y separarlas. Dejar las bolitas en un bol, remojadas en aceite, que las cubra durante 1 hora. Mientras tanto, limpia y revisa bien los atados de acelga, corta el tallo grueso del medio y cortalas en tiritas finitas, agregar 200 gr. de queso rallado, una cucharada de harina y mezcla todo. Sacar el aceite y estirarlas a lo largo con un palo de amasar, que quede lo más fina posible. Agregar el relleno en un extremo y enroscar hasta darle forma de bolita. Una vez armados los bohios colocar en la bandeja, pintarlos con aceite y echarle queso rallado arriba (un poquito). Cocinar en horno bien caliente unos 25 minutos. Sirva caliente, son deliciosos. ¡Buen provecho para todos!",
+        "instrucciones": ["Vierte lo 500 gr. de harina leudante en un bol, agrega la sal, agua suficiente y amase bien hasta formar una masa uniforme. Preparar bolitas de masas y separarlas.", "Dejar las bolitas en un bol, remojadas en aceite, que las cubra durante 1 hora.","Mientras tanto, limpia y revisa bien los atados de acelga, corta el tallo grueso del medio y cortalas en tiritas finitas, agregar 200 gr. de queso rallado, una cucharada de harina y mezcla todo.","Sacar el aceite y estirarlas a lo largo con un palo de amasar, que quede lo más fina posible.","Agregar el relleno en un extremo y enroscar hasta darle forma de bolita.","Una vez armados los bohios colocar en la bandeja, pintarlos con aceite y echarle queso rallado arriba (un poquito). Cocinar en horno bien caliente unos 25 minutos.","Sirva caliente, son deliciosos. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/26-image/26-image_web.jpg",
         "descripcion": "Rica receta de Bohios de acelga, son unos bocados muy sabrosos e ideal para reuniones y encuentro entre amigos. Ideal para os que les gusta la comida vegetariana.",
         "preparacion": "1 hora",
-        "porciones": 10
+        "porciones": 10,
+        "categoria": "entradas"
     },
     {
         "name": "Shawarma",
         "id": 10,
         "ingredientes": "2 kg de carne de cordero, 1/4 nuez moscada, 1/2 cucharada de pimienta negra en granos, 1 cucharada de pimienta de jamaica en granos, 1/2 cucharada de coriandro, 1/2 cucharadita de canela molida, 4 clavos de olor, 1/2 cucharada de comino en granos, 1/4 cucharada de semillas de cardamomo, vinagre de vino, pan de pita",
-        "instrucciones": "Para marinar los 2kg de carne, debes colocar en un recipiente, la 1/2 cucharadita pimienta negra en granos, 2 cucharada de baharat, 1 pizca de canela en polvo, 1/2 cucharada de pimienta de jamaica en granos, 2 dientes de ajo aplastados, 100cc de vinagre de vino, 100 cc de agua fría y jugo de medio limón. Luego del período de marinado, la carne ya estará lista para la cocción. Para ello, utilizaremos una parrilla. La carne debe ser cortados en bifes, pedazos grandes, para insertarlos en los pinchos, para esta tarea, utilice dos espadillas de brochette. El jugo de la marinada se debe reservar, pues puede ser necesario pintar los pinchos, luego de un primer corte. Lleve los pinchos a cocinar en las brasas. Después de 30-40 minutos, Ya estará listo este delicioso shawarma. Procede a cortar tiritas finitas de 5 cm de largo, aproximadamente con un cuchillo filoso. Ya tendrá el plato listo para llevarlo a la mesa. En la mesa, se sirve la carne, el pan de pita, un plato con rodajas de tomate a la mitad y cebollas, lechuga y una salsa taratur de sésamo. ¡Buen provecho para todos!",
+        "instrucciones": ["Para marinar los 2kg de carne, debes colocar en un recipiente, la 1/2 cucharadita pimienta negra en granos, 2 cucharada de baharat, 1 pizca de canela en polvo, 1/2 cucharada de pimienta de jamaica en granos, 2 dientes de ajo aplastados, 100cc de vinagre de vino, 100 cc de agua fría y jugo de medio limón.","Luego del período de marinado, la carne ya estará lista para la cocción. Para ello, utilizaremos una parrilla.","La carne debe ser cortados en bifes, pedazos grandes, para insertarlos en los pinchos, para esta tarea, utilice dos espadillas de brochette. El jugo de la marinada se debe reservar, pues puede ser necesario pintar los pinchos, luego de un primer corte.","Lleve los pinchos a cocinar en las brasas. Después de 30-40 minutos, Ya estará listo este delicioso shawarma.","Procede a cortar tiritas finitas de 5 cm de largo, aproximadamente con un cuchillo filoso. Ya tendrá el plato listo para llevarlo a la mesa.","En la mesa, se sirve la carne, el pan de pita, un plato con rodajas de tomate a la mitad y cebollas, lechuga y una salsa taratur de sésamo. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/7-image/7-image_web.jpg",
         "descripcion": "Un delicia del con exportación de oriente Medio. Sin embargo, una de las comidas rápidas más elaborada por la cocina judía. Se elabora con diferentes tipos de carnes, en especial, el cordero. Se sirve en pan pita.",
         "preparacion": "2 horas",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "principal"
     },
     {
         "name": "Tehina o Tahini",
         "id": 11,
         "ingredientes": "2 cucharadas grandes de pasta de sesamo, 2 limones, ajo, comino, sal, agua",
-        "instrucciones": "Procese el ajo, agua y el jugo de limón con una cucharadita de sal, en una licuadora o batidora de alimentos, hasta que se haga un puré grueso; déjelo reposar 10 minutos para que el ajo se suavice. Colar la mezcla de ajo a través de un colador de malla fina en un pequeño tazón, presionando los sólidos para liberar tanto líquido como sea posible. Devuelva el líquido al batidorde alimentos; deseche los sólidos. Añada el tahini y pulse para combinar. Para servir, esparcir el humus en un tazón poco profundo, espolvorear con pimentón, cubrir con perejil. ¡Buen provecho para todos!",
+        "instrucciones": ["Procese el ajo, agua y el jugo de limón con una cucharadita de sal, en una licuadora o batidora de alimentos, hasta que se haga un puré grueso; déjelo reposar 10 minutos para que el ajo se suavice.","Colar la mezcla de ajo a través de un colador de malla fina en un pequeño tazón, presionando los sólidos para liberar tanto líquido como sea posible.","Devuelva el líquido al batidorde alimentos; deseche los sólidos. Añada el tahini y pulse para combinar.","Para servir, esparcir el humus en un tazón poco profundo, espolvorear con pimentón, cubrir con perejil. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/29-image/29-image_web.jpg",
         "descripcion": "La tahina es una pasta de Oriente Medio, hecha a partir de semillas de sésamo molidas, el secreto del humus al estilo israelí, es una cantidad de tehina, que es especial. ",
         "preparacion": "1 hora",
-        "porciones": 8
+        "porciones": 8,
+        "categoria": "entradas"
     },
     { 
         "name": "Sambusa, Samosa o Sambousek",
         "id": 12,
         "ingredientes": "1 kg de harina, 1 cucharadita de polvo para hornear, 300 gr de queso dambo o de barra, queso parmesano, 2 huevos, 1 cucharadita de queso blanco, aceite, sal, pimienta",
-        "instrucciones": "Ralle los quesos en un bowl. Luego bata los huevos y echalos al bowl, junto con el queso. Agregue una pizca de sal, la pimienta, queso blanco y el polvo de hornear. Integre el aceite con la harina y deshacer los grumos. Eche la sal a gusto y el agua. Luego amase. Una vez listo la masa, haga bolitas chiquitas con su mano, luego estírelas con el palo de amasar. Estirar toda la masa y con el borde de un vaso, haga un corte en círculos. Luego, vuelva a estirarlas un poquito más. Rellene las tapitas con una cucharita de queso y cierre con los dedos o con ayuda de un tenedor. Untelas con huevo y póngales sésamo. Cocinarlas a horno, a fuego medio, por aproximado de 20 minutos o hasta que este cocida la masa. ¡Buen provecho para todos!",
+        "instrucciones": [ "Ralle los quesos en un bowl.", "Luego bata los huevos y echalos al bowl, junto con el queso.", "Agregue una pizca de sal, la pimienta, queso blanco y el polvo de hornear.", "Integre el aceite con la harina y deshacer los grumos. Eche la sal a gusto y el agua. Luego amase.", "Una vez listo la masa, haga bolitas chiquitas con su mano, luego estírelas con el palo de amasar.", "Estirar toda la masa y con el borde de un vaso, haga un corte en círculos. Luego, vuelva a estirarlas un poquito más.", "Rellene las tapitas con una cucharita de queso y cierre con los dedos o con ayuda de un tenedor.", "Untelas con huevo y póngales sésamo.", "Cocinarlas a horno, a fuego medio, por aproximado de 20 minutos o hasta que este cocida la masa. ¡Buen provecho para todos!"],
         "imagen": "https://www.recetas-judias.com/base/stock/Recipe/9-image/9-image_web.jpg",
         "descripcion": "La samosa es una empanadilla frita u horneada con relleno salado. Puede prepararse de diferentes formas, cónicas o de media luna, segun la región.",
         "preparacion": "1 hora",
-        "porciones": 14
+        "porciones": 14,
+        "categoria": "entradas"
     },
     {
         "name":"Burekas",
         "id":13,
         "ingredientes":"2 hojas de hojaldre, 250 gr. de cordero molido, 2 tazas de pure de calabaza cocido, 1 cebolla pequeña, 1/2 cucharadita de comino molido, 1/2 cucharadita de cilantro molido, 1/4 de cucharadita de canela, Pimienta roja, 1/4 de cucharadita de sal, 1 huevo batido para el glaseado, Semillas de sesamo, semillas de nigella o semillas de amapola, 1 cucharada de aceite de oliva",
-        "instrucciones":"Ponga a calentar el aceite de oliva en una sartén a fuego medio. Saltear la cebolla hasta que esté translucida. Añada las especias a la sartén y cocine hasta que se tueste, alrededor de 1 minuto. Añada el cordero molido y cocine hasta que ya no esté rosado, rompiéndolo en pequeños trozos, con una cuchara de madera mientras cocina. Retire del fuego y deje que se enfríe ligeramente.Combine la calabaza y la mezcla de cordero en un tazón mediano.Precaliente el horno a 375 F.Extienda cada hoja de hojaldre. Cortar cada hoja en 9 cuadrados iguales. Usando un rodillo; extienda ligeramente cada cuadrado.Ponga una cucharada de relleno en la esquina de cada cuadrado. Dobla la pasta de hojaldre sobre el relleno, formando un triángulo.Usando las puas de un tenedor, engarce los bordes. Repita con la segunda hoja de hojaldre.Cepille cada bureka con huevo batido. Cubrir con semillas de sésamo, nigella o amapola si se desea.Hornee durante 18-22 minutos, hasta que se doren por encima.Sirva caliente y… ¡Buen provecho para todos!",
+        "instrucciones":["Ponga a calentar el aceite de oliva en una sartén a fuego medio. Saltear la cebolla hasta que esté translúcida. Añada las especias a la sartén y cocine hasta que se tueste, alrededor de 1 minuto.", "Añada el cordero molido y cocine hasta que ya no esté rosado, rompiéndolo en pequeños trozos, con una cuchara de madera mientras cocina. Retire del fuego y deje que se enfríe ligeramente.", "Combine la calabaza y la mezcla de cordero en un tazón mediano.", "Precaliente el horno a 375 F.", "Extienda cada hoja de hojaldre. Cortar cada hoja en 9 cuadrados iguales. Usando un rodillo; extienda ligeramente cada cuadrado.", "Ponga una cucharada de relleno en la esquina de cada cuadrado. Dobla la pasta de hojaldre sobre el relleno, formando un triángulo.", "Usando las púas de un tenedor, engarce los bordes. Repita con la segunda hoja de hojaldre.", "Cepille cada bureka con huevo batido. Cubrir con semillas de sésamo, nigella o amapola si se desea.", "Hornee durante 18-22 minutos, hasta que se doren por encima.", "Sirva caliente y… ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/4-image/4-image_web.jpg",
         "descripcion":"Los burekas son un aperitivo fácil de preparar, con hojaldre comprado en la tienda. Este plato es (bastante) fácil, totalmente unico y delicioso. Es de origen turko, y se arraigó en la comida judía. ",
         "preparacion":"1 hora",
-        "porciones": 2
+        "porciones": 2,
+        "categoria": "entradas"
     },
     {
         "name":"Cholent",
         "id":14,
         "ingredientes":"Aceite de oliva, 6 cebollas, peladas y cortadas, 1 taza de porotos, remojados, 1 taza de cebada, remojada, 5 papas, peladas y cortadas, Pimentón, Sal, Pimienta negra, Curcuma, Ajo en polvo",
-        "instrucciones":" Sofreír la cebolla en una olla grande hasta que esté transparente. Agregar los porotos, cebada y papas, cubrir con agua hasta pocos centímetros de la cocción. Añadir los condimentos y ajustar segun sea necesario, esto otorgará una combinación de sabores. Agregar el pollo, agua, si lo requiere. Cocinar el Cholent a llama alta de 3 a 5 horas. Probar y agregar condimento si es necesario. Cocinar en olla de cocción lenta hasta el día siguiente. ¡Buen provecho para todos!",
+        "instrucciones":["Sofreír la cebolla en una olla grande hasta que esté transparente.","Agregar los porotos, cebada y papas, cubrir con agua hasta pocos centímetros de la cocción.","Añadir los condimentos y ajustar según sea necesario, esto otorgará una combinación de sabores.","Agregar el pollo, agua, si lo requiere.","Cocinar el Cholent a llama alta de 3 a 5 horas.","Probar y agregar condimento si es necesario.","Cocinar en olla de cocción lenta hasta el día siguiente. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/63-image/63-image_web.jpg",
         "descripcion":"Cholent o shalent, es una comida procedente del este de Europa en Yidis, es un plato tradicional de los judíosashkenazi que combinado con gran cantidad de vegetales resaltan su sabor.",
         "preparacion":"+2 horas",
-        "porciones": 4
+        "porciones": 4,
+        "categoria": "principal"
     },
     {
         "name":"Huevos rellenos de atun",
         "id":15,
         "ingredientes":"6 huevos, 125 gr de atun en aceite, 1 taza de mayonesa, Perejil finamente picado, 12 aceitunas rellenas",
-        "instrucciones":"Partir los huevos por la mitad quitando la yema. Mezclamos la yema con el atun y la mayonesa haciendo una pasta. Rellenamos los huevos con esta pasta Esparcimos el perejil y colocamos una aceituna encima de cada huevo. ¡Buen provecho para todos!",
+        "instrucciones":["Partir los huevos por la mitad quitando la yema.","Mezclamos la yema con el atún y la mayonesa haciendo una pasta.","Rellenamos los huevos con esta pasta","Esparcimos el perejil y colocamos una aceituna encima de cada huevo.","¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/30-image/30-image_web.jpg",
         "descripcion":"Si deseas preparar una receta rápida y con mucho alimento, este es el plato ideal. Es una de las recetas más aplicada en la gastronomía judía. ",
         "preparacion":"1 hora",
-        "porciones": 6
+        "porciones": 6,
+        "categoria": "entradas"
     },
     {
         "name":"Knishes de papas",
         "id":16,
         "ingredientes":"2 kg de papas, 1 kg de harina, 3 huevos, 5 cebollas, Agua tibia, Vinagre, Pimienta, Sal",
-        "instrucciones":"Ponga a hervir las papas hasta que estén en el punto, para luego hacer un puré firme. Reservar. Por otro lado, en una olla con abundante aceite y manteca en partes iguales, poner todas las cebollas picadas muy finas, sin condimentar, y dejar que doren. Cuando este listo, incorporarlo al puré de papas, salpimentar y refrigerarlo. En un bol tamizar la harina y reservar. En otro bol, mezcle 100 cc de aceite neutro con 1 cucharada de vinagre, 2 huevos, 400 cc de agua tibia y 1 cucharada de sal. A esta mezcla, se le incorpora la harina, de a poco, mezclando con una cuchara para que se integre. Mezclar hasta formar un bollo. Dividir el bollo en 4 y dejar reposar 20 minutos. Estirar cada bollo, con un palo de amasar, desde el medio hacia fuera, hasta que quede muy fino. Agregar el relleno, ya frio, a 3 cm del borde de la masa, en forma paralela al borde más largo. Enrollar la masa sobre el relleno, dando 2 vueltas y cortar la masa que sobre con un cuchillo. Luego, con la mano, cortar presionando cada uno de los knishes hasta que los extremos de masa se cierren. Tomar cada uno con la mano y darle la forma tradicional, empujando la parte superior hacia adentro, para que quede el agujerito de masa. Pintar cada uno, con yema de huevo mezclada con aceite. Cocine en placa para horno con aceite entre 15 y 20 minutos a fuego medio-alto. ¡Buen provecho para todos!",
+        "instrucciones":["Ponga a hervir las papas hasta que estén en el punto, para luego hacer un puré firme. Reservar.","Por otro lado, en una olla con abundante aceite y manteca en partes iguales, poner todas las cebollas picadas muy finas, sin condimentar, y dejar que doren. Cuando este listo, incorporarlo al puré de papas, salpimentar y refrigerarlo.","En un bol tamizar la harina y reservar.","En otro bol, mezcle 100 cc de aceite neutro con 1 cucharada de vinagre, 2 huevos, 400 cc de agua tibia y 1 cucharada de sal. A esta mezcla, se le incorpora la harina, de a poco, mezclando con una cuchara para que se integre. Mezclar hasta formar un bollo.","Dividir el bollo en 4 y dejar reposar 20 minutos. Estirar cada bollo, con un palo de amasar, desde el medio hacia fuera, hasta que quede muy fino.","Agregar el relleno, ya frio, a 3 cm del borde de la masa, en forma paralela al borde más largo. Enrollar la masa sobre el relleno, dando 2 vueltas y cortar la masa que sobre con un cuchillo.","Luego, con la mano, cortar presionando cada uno de los knishes hasta que los extremos de masa se cierren. Tomar cada uno con la mano y darle la forma tradicional, empujando la parte superior hacia adentro, para que quede el agujerito de masa.","Pintar cada uno, con yema de huevo mezclada con aceite.","Cocine en placa para horno con aceite entre 15 y 20 minutos a fuego medio-alto. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/10-image/10-image_web.jpg",
         "descripcion":"El knish, es una especialidad de la gastronomía judía, muy popular en el Este de Europa. Consiste en un relleno cubierto de una masa que puede ser cocinada al horno o frita. ",
         "preparacion":"1 hora",
-        "porciones": 24
+        "porciones": 24,
+        "categoria": "entradas"
     },
     {
         "name":"Strudel de manzana",
         "id":17,
         "ingredientes":"2 huevos, 2 yemas, 3 tazas de azucar, 5 tazas al ras de harina, 400 gr. de margarina, 5 cucharadas de crema, Ralladura de la cascara de 3 limones, 10 a 12 manzanas verdes grandes, cortadas en cubitos, Jugo de 2 limones, 1/2 cucharada de canela, Pasas y nueces, a gusto, 1/2 taza de bizcochos dulces rallados",
-        "instrucciones":"Mezcle el azucar con los huevos y las yemas. Agregue los demás ingredientes, amasando con las manos solamente lo necesario. Sepárela en 2 partes y estírela muy finita. Coloque una hoja de masa en una asadera grande rectangular, enmantecada y enharinada. Espolvoréela con los bizcochos rallados para que absorban la humedad del relleno. Cubra con las manzanas y los demás ingredientes del relleno, tape con la otra hoja de masa. Cocine en horno de temperatura regular durante 1 hora. Cuando este frío, espolvoree con azucar impalpable. ¡Buen provecho para todos!",
+        "instrucciones":["Mezcle el azúcar con los huevos y las yemas. Agregue los demás ingredientes, amasando con las manos solamente lo necesario. Sepárela en 2 partes y estírela muy finita.","Coloque una hoja de masa en una asadera grande rectangular, enmantecada y enharinada. Espolvoréela con los bizcochos rallados para que absorban la humedad del relleno.","Cubra con las manzanas y los demás ingredientes del relleno, tape con la otra hoja de masa.","Cocine en horno de temperatura regular durante 1 hora. Cuando este frío, espolvoree con azúcar impalpable. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/118-image/118-image_web.jpg",
         "descripcion":"Delicioso postre alemán, de origen judío, a base de jugosa manzana con frutos secos y canela, recubierta de crujiente pasta filo.",
         "preparacion":"1 hora",
-        "porciones": 4
+        "porciones": 4,
+        "categoria": "reposteria"
     },
     {
         "name":"Ensalada de berenjenas israelí",
         "id":18,
         "ingredientes":"6 berenjenas, 1 cebolla mediana picada, 2 tomates pelados, Cebolla picada, 2 cucharadas de perejil picado, 3 cucharadas de aceite de oliva, Zumo de limón a gusto, 2 dientes de ajo picados, Sal y pimienta",
-        "instrucciones":"Comienza colocando las berenjenas sobre la hornilla de tu cocina, con cáscara y todo. Mientras se van asando, tienes que girarlas para que toda la superficie se cocine bien. Esta será la clave del aroma, y la cocción que tendrá, de forma posterior, el plato. Luego de retirarlas de la cocina, cortarlas al medio y retírales toda la pulpa con un tenedor, pisándola bien y llevándola a un recipiente. Allí, añadirás los tomates cortados en cubos pequeños, los dientes de ajo picados, la cebolla picada y el perejil, condiméntalo con sal y pimienta a gusto. Con el zumo de limón y aceite de oliva, se mezclan y lleva a la mesa para comer como tu prefieras. Esta ensalada puedes acompañarla con pan de pita o tostadas. ¡Buen provecho para todos!",
+        "instrucciones":["Comienza colocando las berenjenas sobre la hornilla de tu cocina, con cáscara y todo. Mientras se van asando, tienes que girarlas para que toda la superficie se cocine bien. Esta será la clave del aroma, y la cocción que tendrá, de forma posterior, el plato.","Luego de retirarlas de la cocina, cortarlas al medio y retírales toda la pulpa con un tenedor, pisándola bien y llevándola a un recipiente. Allí, añadirás los tomates cortados en cubos pequeños, los dientes de ajo picados, la cebolla picada y el perejil, condiméntalo con sal y pimienta a gusto.","Con el zumo de limón y aceite de oliva, se mezclan y lleva a la mesa para comer como tú prefieras. Esta ensalada puedes acompañarla con pan de pita o tostadas. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/15-image/15-image_web.jpg",
         "descripcion":"Uno de los ingredientes principales de la cocina israelí, es la berenjena. Esta receta, posee un sabor suave y ahumado. Además de su sencillez y fácil preparación. ",
         "preparacion":"1 hora",
-        "porciones":6
+        "porciones":6,
+        "categoria": "entradas"
     },
     {
         "name":"Bigos",
         "id":19,
         "ingredientes":"500 gr. de carne de ternera, 1 kg de col blanca o repollo, 400 gr. de col fermentada (choukrut), 500 gr. de cebolla, 250 gr. de setas, 500 gr. de panceta, 500 gr. de salsa de tomate casero, 150 gr. de ciruelas pasas, Sal y pimienta, Aceite de oliva, Hierbas provenzales, laurel",
-        "instrucciones":"Partimos la col en juliana y reservamos. Enjuagamos varias veces el choukrut para quitarle toda la sal y el líquido de conservación. En una olla, se pone el choukrut y la col en juliana. Salpimentamos. Añadimos medio vaso de agua y lo calentamos hasta que hierva durante 3 minutos, hasta que empiece a ablandarse. En una sartén grande, ponemos un fondo de aceite y añadimos la cebolla partida en juliana también. Cuando empiece a dorarse, añadimos las setas bien secas. Dejamos que también se vayan dorando durante unos minutos. Apartamos un poco la cebolla y las setas y añadimos el bacon, cortado en cuadros, para que se dore también. Añadimos la carne de ternera cortada en trocitos y la salteamos hasta que esté bien cocinada. Añadimos todo lo que teníamos en la sartén a la olla con la col. Removemos. Echamos 1 vaso de agua y dejamos hervir lentamente a fuego bajo durante una hora y media o dos. 20 minutos antes de que termine la cocción, añadimos la salsa de tomate, las ciruelas pasas, las hierbas y la hoja de laurel. Removemos bien. Rectificamos de sal y dejamos que termine de cocer. Dejamos tapado en la olla hasta que lo vayamos a comer. Si hace demasiado calor, lo podemos meter en el frigorífico. Está mucho mejor después de un día o dos. ¡Buen provecho para todos!",
+        "instrucciones":["Partimos la col en juliana y reservamos.","Enjuagamos varias veces el choukrut para quitarle toda la sal y el líquido de conservación.","En una olla, se pone el choukrut y la col en juliana. Salpimentamos. Añadimos medio vaso de agua y lo calentamos hasta que hierva durante 3 minutos, hasta que empiece a ablandarse.","En una sartén grande, ponemos un fondo de aceite y añadimos la cebolla partida en juliana también.","Cuando empiece a dorarse, añadimos las setas bien secas. Dejamos que también se vayan dorando durante unos minutos.","Apartamos un poco la cebolla y las setas y añadimos el bacon, cortado en cuadros, para que se dore también.","Añadimos la carne de ternera cortada en trocitos y la salteamos hasta que esté bien cocinada.","Añadimos todo lo que teníamos en la sartén a la olla con la col. Removemos. Echamos 1 vaso de agua y dejamos hervir lentamente a fuego bajo durante una hora y media o dos.","20 minutos antes de que termine la cocción, añadimos la salsa de tomate, las ciruelas pasas, las hierbas y la hoja de laurel. Removemos bien. Rectificamos de sal y dejamos que termine de cocer.","Dejamos tapado en la olla hasta que lo vayamos a comer. Si hace demasiado calor, lo podemos meter en el frigorífico. Está mucho mejor después de un día o dos. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/105-image/105-image_web.jpg",
         "descripcion":"Es uno de los platos más queridos de Polonia. Data de una tradición de las raíces judías más asentada de este país. La característica más destacable del plato, es su preparación: cuanto más tiempo se tarda en guisar, resulta mucho más sabroso.",
         "preparacion":"2 horas",
-        "porciones": 4
+        "porciones": 4,
+        "categoria": "principal"
     },
     {
         "name":"Lekach",
         "id":20,
         "ingredientes":"4 huevos, 1 taza de azucar morena, 1/2 taza de cafe fuerte, Aceite, 1 taza miel, 3 1/2 tazas de harina, 1/4 cdta. sal, 1 1/2 cdta. polvo de hornear, 1 cdta. bicarbonato, 1 cdta. canela en polvo, 1/2 cdta. clavo de olor, 1/4 cdta. nuez moscada, 3/4 tazas almendras blanqueadas (hervidas y peladas), 3/4 taza fruta confitada mixta, 3 cucharada de brandy, ron o coñac",
-        "instrucciones":"Batir los huevos y el azucar hasta que se pongan cremosos y aclaren su color. Mezclar el café frío, aceite y miel y agregar a la mezcla de huevos. Mezclar la harina, sal, especias, polvos de hornear y bicarbonato. Cernir todo junto. Mezclar con las frutas y las nueces. Poco a poco, añadir la mezcla de harina, fruta y nueces a la de huevos y azucar. Mezclar bien añadiendo licor cuando la masa se vea homogénea. Aceitar y enharinar un molde grande o dos pequeños. Vaciar la mezcla y hornear a horno regular por 40-60 minutos o hasta que al insertar un palillo, este salga seco. Desmoldar sobre una rejilla para que se enfríe. ¡Buen provecho para todos!",
+        "instrucciones":["Batir los huevos y el azúcar hasta que se pongan cremosos y aclaren su color.","Mezclar el café frío, aceite y miel y agregar a la mezcla de huevos. Mezclar la harina, sal, especias, polvos de hornear y bicarbonato. Cernir todo junto.","Mezclar con las frutas y las nueces. Poco a poco, añadir la mezcla de harina, fruta y nueces a la de huevos y azúcar.","Mezclar bien añadiendo licor cuando la masa se vea homogénea.","Aceitar y enharinar un molde grande o dos pequeños. Vaciar la mezcla y hornear a horno regular por 40-60 minutos o hasta que al insertar un palillo, este salga seco.","Desmoldar sobre una rejilla para que se enfríe. ¡Buen provecho para todos!"],
         "imagen":"https://www.recetas-judias.com/base/stock/Recipe/120-image/120-image_web.jpg",
         "descripcion":"Un delicioso pastel de miel israelí, elaborado con manzanas y dulce de zanahorias aderezado con nueces y miel.",
         "preparacion":"2 horas",
-        "porciones":8
+        "porciones":8,
+        "categoria": "reposteria"
+    },
+    {
+        "name":"Latkes de papa",
+        "id":21,
+        "ingredientes":"1 kilo de papa peladas y ralladas, 2 cucharada de cebolla rallada, 3 huevos batidos, 2 cucharadas de harina, ajo y perejil bien picado, 1 y 1/2 cucharaditas de sal y pimienta, 1/4 taza de aceite, 2 cucharaditas de clavo de olor, 2 cucharaditas de canela",
+        "instrucciones":["Poner las papas en una servilleta o en un colador y exprimir la mayor cantidad de humedad posible.", "En un bol mediano mezclar las papa. la cebolla, los huevos, la harina, la sal, pimienta, clavo de olor y canela.,ajo y perejil","En una sartén grande a fuego medio-alto, calentar el aceite hasta que esté bien caliente. Colocar varias cucharadas grandes de la mezcla de papa en el aceite caliente, presionando sobre cada uno para formar buñuelos de ½ - 1 cm de espesor. Dorar de un lado, dar vuelta y dorar. Dejar escurrir bien el aceite."],
+        "imagen":"https://www.recetasjudias.com/wp-content/uploads/2015/01/Latkes-de-Papa-1.jpg",
+        "descripcion":"Receta típica de la gastronomía judía, en especial de la festividad de januka, también se usa en cualquier otra ocasión como acompañamiento de otro plato.",
+        "preparacion":"45 minutos",
+        "porciones": "2 personas",
+        "categoria": "entradas"
+    },
+    {
+        "name":"Shakshuka israelí",
+        "id":22,
+        "ingredientes":"6 huevos, 2 cucharaditas de pasta de tomate, ¼ taza de aceite vegetal, 6 dientes de ajo picados, 2 cucharaditas de sal, o al gusto, 1 cucharadita de pimentón dulce, 1 kg de tomates frescos, sin pelar y cortados en cuartos, ¼ taza de perejil, picado fresco de hoja plana, 1 taza de tofu o feta en cubos",
+        "instrucciones":["Introducir en una olla pequeña, los tomates, ajo, pimentón, la pasta de tomate y el aceite vegetal","Hervir a llama baja durante 30 minutos sin tapar, mover de vez en cuando","Llevar la salsa de tomate a una sartén, previamente engrasado","Cocinar a fuego lento y añadir los huevos utilizando un tenedor para romper las yemas","Espolvorear por encima la feta, tofu y perejil","Tapar y continuar cocinando hasta que los huevos estén listos durante 3 0 4 minutos","Servir directamente en la sartén. ¡Buen provecho para todos!"],
+        "imagen":"https://www.recetas-judias.com/base/stock/Recipe/71-image/71-image_web.jpg",
+        "descripcion":"Shakshuka, es un plato de origen árabe, es un contundente almuerzo con una base de tomates, cebolla, ajo y sobre ella se cocinan los huevos. ¡Degústalo! ",
+        "preparacion":"1 hora",
+        "porciones":4,
+        "categoria": "principal"
+    },
+    {
+        "name":"Borscht",
+        "id":23,
+        "ingredientes":"1/4 litro de caldo, 150 gr. crema de leche, 1/4 repollo blanco, 1 cucharada de azúcar, 4 remolachas medianas, 100 gr de manteca, 2 apios, 2 zanahorias, 3 puerros, 1 cebolla mediana, Sal y pimienta a gusto",
+        "instrucciones":["Sofreír en la manteca caliente toda la verdura bien picadita.","Se le agrega el caldo caliente y se hierve todo hasta que las verduras estén tiernas.","Se cuela, se le agrega al caldo las remolachas y se cocinan hasta que ablanden.","Luego de culminada la cocción, se licua todo el contenido,","Se le agrega la pizca de azúcar y se sirve en tazas o cazuelitas y se le incorpora parte de la crema por encima.","El resto se puede servir en jarra si lo desea. ¡Buen provecho para todos!"],
+        "imagen":"https://www.recetas-judias.com/base/stock/Recipe/34-image/34-image_web.jpg",
+        "descripcion":"Exquisita sopa de Borscht, la original, sus ingredientes perfectos resaltan el sabor. No te lo pierdas.",
+        "preparacion":"1 hora",
+        "porciones":4,
+        "categoria": "sopas"
+    },
+    {
+        "name":"Sopa kimpeturin",
+        "id": 24,
+        "ingredientes":"1 cucharada de maicena, 4 tazas de sopa de pollo, 1/4 taza de pollo cocido y picado, 2 cucharaditas de té de vino blanco seco, 2 huevos, bien batidos, 2 tazas de fideos secos",
+        "instrucciones":["Ponga la maicena junto con una taza de sopa de pollo en una olla, luego añada el resto de la sopa junto con el pollo picado y el vino.","Llévelo a un hervor rápido, agregue lentamente los huevos batidos, remueva en forma constante hasta que el huevo se cocine en jirones.","Retire del fuego y sirva con los fideos secos. ¡Buen provecho para todos!"],
+        "imagen":"https://www.recetas-judias.com/base/stock/Recipe/104-image/104-image_web.jpg",
+        "descripcion":"Un plato tradicional judío de Rusia, oriundo de China. La tradición popular judía de Europa Oriental, dice que esta sopa es súper nutritiva ayuda a la recuperación de actividades exhaustivas. ",
+        "preparacion":"30 minutos",
+        "porciones": 2,
+        "categoria": "sopas"
     }
 ]
